@@ -1,0 +1,79 @@
+{
+  "readable_module_name": "<%= name %>",
+  "description":          "Displays forecast based on a configurable zip/locid.",
+  "category":             "Local suite",
+  "module_status":        "active",
+  "version":              "1.0.0",
+
+  "ttl":              "5000",
+  "type":             "module",
+  "presentation":     "angular",
+  "template":         [
+    {
+      "file":  "templates/<%= name %>.html",
+      "machine_name": "default",
+      "label": "Forecast Template 1",
+      "type":  "static"
+    },
+    {
+      "machine_name": "dynamic_template",
+      "file":  "templates/<%= name %>.tpl.php",
+      "label": "Forecast Template 2",
+      "type": "tpl.php"
+    }
+  ],
+  "context_required": [
+    {
+      "type": "twclocation",
+      "var":  "twclocation"
+    }
+  ],
+  "usable_in":        {
+    "any":  ["wxnode"],
+    "none": []
+  },
+  "shared":           [
+    {
+      "resource": "drupalSettings",
+      "version":  "1.0.0"
+    },
+    {
+      "resource": "dsx",
+      "version":  "1.0.0"
+    }
+  ],
+  "add_js":           {
+    "header": [
+      {
+        "src":    "<%= name %>.app.js",
+        "group":  "angular.general",
+        "weight": 10
+      },
+      {
+        "src":    "<%= name %>.controller.js",
+        "group":  "angular.general",
+        "weight": 13
+      }
+    ],
+    "footer": []
+  },
+  "add_css":          {
+    "header": [
+      {
+        "src":    "<%= name %>.css",
+        "group":  "default",
+        "weight": 11
+      }
+    ],
+    "footer": []
+  },
+  "configuration":    {
+    "fields": {
+      "locID": {
+        "#title": "location_id",
+        "#type":  "textfield",
+        "#required": false
+      }
+    }
+  }
+}
