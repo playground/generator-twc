@@ -1,6 +1,6 @@
 /**
  * Created with JetBrains PhpStorm.
- * User: jefflu
+ * User: <%= author %>
  * Date: <%= timestamp.getMonth() + 1 %>/<%= timestamp.getDate() %>/<%= timestamp.getYear()+1900 %>
  * Time: <%= timestamp.getHours() %>:<%= timestamp.getMinutes() %>
  * To change this template use File | Settings | File Templates.

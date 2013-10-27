@@ -11,11 +11,13 @@
 'use strict';
 var util = require('util');
 var path = require('path');
+var shell = require('shelljs');
 var yeoman = require('yeoman-generator');
 
 var Generator = module.exports = function Generator() {
   yeoman.generators.NamedBase.apply(this, arguments);
 
+  this.author = shell.exec('git config --get user.name', { silent: true }).output.trim();
   this.timestamp = new Date();
   try {
     this.appname = require(path.join(process.cwd(), 'bower.json')).name;
