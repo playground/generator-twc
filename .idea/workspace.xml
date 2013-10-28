@@ -55,7 +55,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
+            <state line="25" column="34" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,7 +91,16 @@
       <file leaf-file-name="twc-base.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twc-base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="45" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.7169811">
+            <state line="101" column="104" selection-start="3333" selection-end="3333" vertical-scroll-proportion="0.6320755">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/javascript/config.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="74" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,14 +195,17 @@
         <option value="$PROJECT_DIR$/templates/javascript/controller.js" />
         <option value="$PROJECT_DIR$/templates/javascript/spec/controller.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/templates/javascript/config.rb" />
         <option value="$PROJECT_DIR$/module/index.js" />
+        <option value="$PROJECT_DIR$/templates/javascript/module.sass" />
         <option value="$PROJECT_DIR$/twc-base.js" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1359" />
-    <option name="y" value="-267" />
+    <option name="x" value="53" />
+    <option name="y" value="22" />
     <option name="width" value="1338" />
     <option name="height" value="746" />
   </component>
@@ -367,15 +379,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1359" y="-267" width="1338" height="746" extended-state="0" />
-    <editor active="false" />
+    <frame x="53" y="22" width="1338" height="746" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.96964854" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.96964854" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.030351438" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -536,14 +548,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
+        <state line="25" column="34" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/javascript/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="74" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/javascript/module.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="437" selection-end="437" vertical-scroll-proportion="0.28248587">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twc-base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="45" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.7169811">
+        <state line="101" column="104" selection-start="3333" selection-end="3333" vertical-scroll-proportion="0.6320755">
           <folding />
         </state>
       </provider>

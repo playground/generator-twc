@@ -17,6 +17,8 @@ var Generator = module.exports = function Generator() {
   this.moduleTestPath = 'site-testing/spec/modules' + this.name;
   this.mkdir(this.modulePath);
   this.mkdir(path.join(this.modulePath, 'templates'));
+  this.mkdir(path.join(this.modulePath, 'css'));
+  this.mkdir(path.join(this.modulePath, 'sass'));
   this.mkdir(this.moduleTestPath);
 
 };

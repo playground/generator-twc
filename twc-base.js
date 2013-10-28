@@ -98,9 +98,11 @@ Generator.prototype.generateModuleFiles = function () {
   var targetDirectory = 'modules';
   this.appTemplate('app.js', path.join(targetDirectory, this.name, this.name+'.app.js'));
   this.appTemplate('controller.js', path.join(targetDirectory, this.name, this.name+'.controller.js'));
-  this.appTemplate('module.css', path.join(targetDirectory, this.name, this.name+'.css'));
+  this.appTemplate('module.css', path.join(targetDirectory, this.name, 'css', 'global_'+this.name+'.css'));
+  this.appTemplate('module.sass', path.join(targetDirectory, this.name, 'sass', 'global_'+this.name+'.sass'));
   this.appTemplate('module.info', path.join(targetDirectory, this.name, this.name+'.info'));
   this.appTemplate('esi.inc', path.join(targetDirectory, this.name, this.name+'.esi.inc'));
+  this.appTemplate('config.rb', path.join(targetDirectory, this.name, 'config.rb'));
   this.appTemplate('view.html', path.join(targetDirectory, this.name, 'templates', this.name+'.html'));
   this.appTemplate('tpl.php', path.join(targetDirectory, this.name, 'templates', this.name+'.tpl.php'));
   this.testTemplate('spec/controller.js', path.join(targetDirectory, this.name, this.name + '.spec.js'));
