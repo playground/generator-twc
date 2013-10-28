@@ -61,7 +61,8 @@ Generator.prototype.isRepo = function() {
     shell.echo('Sorry, this script requires git');
     shell.exit(1);
   }
-  if(__dirname.indexOf('/twc_cms/') < 0) {
+  if(__dirname.indexOf('/twc_cms') < 0) {
+    shell.echo(__dirname);
     shell.echo('Must be inside of twc_cms to execute this command');
     shell.exit(1);
   }
