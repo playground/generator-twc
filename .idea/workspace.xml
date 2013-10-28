@@ -88,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twc-base.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="twc-base.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twc-base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="104" selection-start="3333" selection-end="3333" vertical-scroll-proportion="0.6320755">
+            <state line="101" column="104" selection-start="3333" selection-end="3333" vertical-scroll-proportion="-12.884615">
               <folding />
             </state>
           </provider>
@@ -121,6 +121,8 @@
             <state line="4" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="-2.5">
               <folding>
                 <element signature="e#6#84#0" expanded="true" />
+                <marker date="1382904239000" expanded="true" signature="105:283" placeholder="..." />
+                <marker date="1382904239000" expanded="true" signature="287:430" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -155,10 +157,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="22" selection-start="602" selection-end="602" vertical-scroll-proportion="-11.25">
+            <state line="2" column="19" selection-start="48" selection-end="48" vertical-scroll-proportion="0.05639098">
               <folding />
             </state>
           </provider>
@@ -170,6 +172,7 @@
             <state line="12" column="3" selection-start="0" selection-end="437" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <marker date="1382837145000" expanded="true" signature="416:435" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -194,11 +197,11 @@
         <option value="$PROJECT_DIR$/templates/javascript/app.js" />
         <option value="$PROJECT_DIR$/templates/javascript/controller.js" />
         <option value="$PROJECT_DIR$/templates/javascript/spec/controller.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/templates/javascript/config.rb" />
         <option value="$PROJECT_DIR$/module/index.js" />
         <option value="$PROJECT_DIR$/templates/javascript/module.sass" />
         <option value="$PROJECT_DIR$/twc-base.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -468,6 +471,7 @@
         <state line="12" column="3" selection-start="0" selection-end="437" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1382837145000" expanded="true" signature="416:435" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -514,6 +518,8 @@
         <state line="4" column="13" selection-start="98" selection-end="98" vertical-scroll-proportion="-2.5">
           <folding>
             <element signature="e#6#84#0" expanded="true" />
+            <marker date="1382904239000" expanded="true" signature="105:283" placeholder="..." />
+            <marker date="1382904239000" expanded="true" signature="287:430" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -528,13 +534,6 @@
     <entry file="file://$PROJECT_DIR$/templates/javascript/spec/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="602" selection-end="602" vertical-scroll-proportion="-11.25">
           <folding />
         </state>
       </provider>
@@ -569,7 +568,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/twc-base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="104" selection-start="3333" selection-end="3333" vertical-scroll-proportion="0.6320755">
+        <state line="101" column="104" selection-start="3333" selection-end="3333" vertical-scroll-proportion="-12.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="48" selection-end="48" vertical-scroll-proportion="0.05639098">
           <folding />
         </state>
       </provider>
