@@ -56,6 +56,17 @@ var Generator = module.exports = function Generator() {
 
 util.inherits(Generator, yeoman.generators.NamedBase);
 
+Generator.prototype.isRepo = function() {
+  if (!shell.which('git')) {
+    shell.echo('Sorry, this script requires git');
+    shell.exit(1);
+  }
+  if(__dirname.indexOf('/twc_cms/') < 0) {
+    shell.echo('Must be inside of twc_cms to execute this command');
+    shell.exit(1);
+  }
+};
+
 Generator.prototype.appTemplate = function (src, dest) {
   yeoman.generators.Base.prototype.template.apply(this, [
     src,
