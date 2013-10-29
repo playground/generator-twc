@@ -14,7 +14,8 @@ var Generator = module.exports = function Generator() {
     this.name = this.name.slice(0, -10);
   }
   this.modulePath = 'docroot/sites/all/modules/custom/angularmods/modules/' + this.name;
-  this.moduleTestPath = 'site-testing/spec/modules' + this.name;
+  this.isExist('module', this.modulePath);
+  this.moduleTestPath = 'site-testing/spec/modules/' + this.name;
   this.mkdir(this.modulePath);
   this.mkdir(path.join(this.modulePath, 'templates'));
   this.mkdir(path.join(this.modulePath, 'css'));

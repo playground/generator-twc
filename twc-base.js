@@ -68,6 +68,13 @@ Generator.prototype.isRepo = function() {
   }
 };
 
+Generator.prototype.isExist = function(type, path) {
+  if(shell.test('-e', path)) {
+    shell.echo(type + ' already exists: ' + path);
+    shell.exit(1);
+  }
+};
+
 Generator.prototype.appTemplate = function (src, dest) {
   yeoman.generators.Base.prototype.template.apply(this, [
     src,

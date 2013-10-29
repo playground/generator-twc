@@ -8,10 +8,10 @@
     <file path="$PROJECT_DIR$/../generator-blog-playground/posts/index.md" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382823470252" ignored="false" />
     <file path="/Dummy.txt" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382972628759" ignored="false" />
     <file path="/a.dummy" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382898289386" ignored="false" />
-    <file path="/index.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382967702407" ignored="false" />
+    <file path="/index.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1383069376012" ignored="false" />
     <file path="$PROJECT_DIR$/../../twc_cms/docroot/sites/all/modules/custom/angularmods/modules/header_savedLocations/css/global_savedLocations.css" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382840284049" ignored="false" />
     <file path="$PROJECT_DIR$/../generator-angular/script-base.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382896283677" ignored="false" />
-    <file path="/twc-base.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382983361439" ignored="false" />
+    <file path="/twc-base.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1383069543350" ignored="false" />
     <file path="/controller.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382900374744" ignored="false" />
     <file path="$PROJECT_DIR$/../../twc_cms/docroot/sites/all/modules/custom/angularmods/modules/test-module/test-module.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382903109317" ignored="false" />
     <file path="$PROJECT_DIR$/../../twc_cms/docroot/sites/all/modules/custom/angularmods/modules/test-module/test-module.controller.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382910059480" ignored="false" />
@@ -21,9 +21,14 @@
     <file path="$PROJECT_DIR$/../../twc_cms/site-testing/spec/modules/test-module/test-module.spec.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382910059480" ignored="false" />
     <file path="/package.json" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382909968866" ignored="false" />
     <file path="$PROJECT_DIR$/../../twc_cms/site-testing/spec/modules/forecast/forecast.spec.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382969123164" ignored="false" />
-    <file path="$PROJECT_DIR$/../../twc_cms/site-testing/package.json" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382970330229" ignored="false" />
-    <file path="$PROJECT_DIR$/../../twc_cms/site-testing/Gruntfile.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382970519403" ignored="false" />
+    <file path="$PROJECT_DIR$/../../twc_cms/site-testing/package.json" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1383054727706" ignored="false" />
+    <file path="$PROJECT_DIR$/../../twc_cms/site-testing/Gruntfile.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1383054727706" ignored="false" />
     <file path="/Gruntfile.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1382970478617" ignored="false" />
+    <file path="$PROJECT_DIR$/../test/manifest.json" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1383004991330" ignored="false" />
+    <file path="$PROJECT_DIR$/../test/popup.html" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1383005156327" ignored="false" />
+    <file path="$PROJECT_DIR$/../test/popup.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1383006655573" ignored="false" />
+    <file path="$PROJECT_DIR$/../../twc_cms/site-testing/spec/gruntBootstrap.js" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1383054727707" ignored="false" />
+    <file path="$PROJECT_DIR$/../../twc_cms/docroot/sites/all/modules/custom/angularmods/plugins/content_types/ngpanes.inc" changelist="62718cd9-c63d-47ac-b398-802c3f851d43" time="1383054727707" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +60,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="34" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
+            <state line="16" column="25" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twc-base.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="twc-base.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twc-base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="104" selection-start="3333" selection-end="3333" vertical-scroll-proportion="-12.884615">
+            <state line="72" column="45" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.7169811">
               <folding />
             </state>
           </provider>
@@ -157,10 +162,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="48" selection-end="48" vertical-scroll-proportion="0.05639098">
+            <state line="2" column="19" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -198,17 +203,17 @@
         <option value="$PROJECT_DIR$/templates/javascript/controller.js" />
         <option value="$PROJECT_DIR$/templates/javascript/spec/controller.js" />
         <option value="$PROJECT_DIR$/templates/javascript/config.rb" />
-        <option value="$PROJECT_DIR$/module/index.js" />
         <option value="$PROJECT_DIR$/templates/javascript/module.sass" />
-        <option value="$PROJECT_DIR$/twc-base.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/module/index.js" />
+        <option value="$PROJECT_DIR$/twc-base.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="22" />
+    <option name="x" value="-1366" />
+    <option name="y" value="-76" />
     <option name="width" value="1338" />
     <option name="height" value="746" />
   </component>
@@ -382,8 +387,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="22" width="1338" height="746" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1366" y="-76" width="1338" height="746" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -545,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="34" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/javascript/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="74" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
@@ -566,16 +564,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twc-base.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="104" selection-start="3333" selection-end="3333" vertical-scroll-proportion="-12.884615">
+        <state line="2" column="19" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/module/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="48" selection-end="48" vertical-scroll-proportion="0.05639098">
+        <state line="16" column="25" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twc-base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="45" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.7169811">
           <folding />
         </state>
       </provider>
